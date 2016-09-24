@@ -1,8 +1,8 @@
         -:    0:Source:/usr/include/c++/5/bits/alloc_traits.h
         -:    0:Graph:ConversorRomanos.gcno
         -:    0:Data:ConversorRomanos.gcda
-        -:    0:Runs:1
-        -:    0:Programs:1
+        -:    0:Runs:3
+        -:    0:Programs:3
         -:    1:// Allocator traits -*- C++ -*-
         -:    2:
         -:    3:// Copyright (C) 2011-2015 Free Software Foundation, Inc.
@@ -492,9 +492,9 @@
         -:  487:       *  Calls @c a.allocate(n)
         -:  488:      */
         -:  489:      static pointer
-function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE8allocateERS5_m called 15 returned 100% blocks executed 100%
-       15:  490:      allocate(allocator_type& __a, size_type __n)
-       15:  491:      { return __a.allocate(__n); }
+function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE8allocateERS5_m called 45 returned 100% blocks executed 100%
+       45:  490:      allocate(allocator_type& __a, size_type __n)
+       45:  491:      { return __a.allocate(__n); }
 call    0 returned 100%
         -:  492:
         -:  493:      /**
@@ -535,11 +535,11 @@ call    0 never executed
         -:  526:      */
         -:  527:      template<typename _Up, typename... _Args>
         -:  528:	static void
-function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE9constructIS3_JRKS3_EEEvRS5_PT_DpOT0_ called 14 returned 100% blocks executed 100%
+function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE9constructIS3_JRKS3_EEEvRS5_PT_DpOT0_ called 42 returned 100% blocks executed 100%
 function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE9constructIS3_JRKSt21piecewise_construct_tSt5tupleIJOcEESB_IJEEEEEvRS5_PT_DpOT0_ called 0 returned 0% blocks executed 0%
-function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE9constructIS3_JRKSt21piecewise_construct_tSt5tupleIJRS2_EESB_IJEEEEEvRS5_PT_DpOT0_ called 1 returned 100% blocks executed 100%
-       15:  529:	construct(allocator_type& __a, _Up* __p, _Args&&... __args)
-       15:  530:	{ __a.construct(__p, std::forward<_Args>(__args)...); }
+function _ZNSt16allocator_traitsISaISt13_Rb_tree_nodeISt4pairIKciEEEE9constructIS3_JRKSt21piecewise_construct_tSt5tupleIJRS2_EESB_IJEEEEEvRS5_PT_DpOT0_ called 3 returned 100% blocks executed 100%
+       45:  529:	construct(allocator_type& __a, _Up* __p, _Args&&... __args)
+       45:  530:	{ __a.construct(__p, std::forward<_Args>(__args)...); }
 call    0 returned 100%
 call    1 returned 100%
 call    2 never executed

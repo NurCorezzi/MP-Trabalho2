@@ -1,8 +1,8 @@
         -:    0:Source:/usr/include/c++/5/bits/stl_function.h
         -:    0:Graph:ConversorRomanos.gcno
         -:    0:Data:ConversorRomanos.gcda
-        -:    0:Runs:1
-        -:    0:Programs:1
+        -:    0:Runs:3
+        -:    0:Programs:3
         -:    1:// Functor implementations -*- C++ -*-
         -:    2:
         -:    3:// Copyright (C) 2001-2015 Free Software Foundation, Inc.
@@ -388,9 +388,9 @@
         -:  383:    {
         -:  384:      _GLIBCXX14_CONSTEXPR
         -:  385:      bool
-function _ZNKSt4lessIcEclERKcS2_ called 10594 returned 100% blocks executed 100%
-    10594:  386:      operator()(const _Tp& __x, const _Tp& __y) const
-    10594:  387:      { return __x < __y; }
+function _ZNKSt4lessIcEclERKcS2_ called 33304 returned 100% blocks executed 100%
+    33304:  386:      operator()(const _Tp& __x, const _Tp& __y) const
+    33304:  387:      { return __x < __y; }
         -:  388:    };
         -:  389:
         -:  390:  /// One of the @link comparison_functors comparison functors@endlink.
@@ -894,9 +894,9 @@ function _ZNKSt4lessIcEclERKcS2_ called 10594 returned 100% blocks executed 100%
         -:  888:      { return __x.first; }
         -:  889:
         -:  890:      const typename _Pair::first_type&
-function _ZNKSt10_Select1stISt4pairIKciEEclERKS2_ called 8744 returned 100% blocks executed 100%
-     8744:  891:      operator()(const _Pair& __x) const
-     8744:  892:      { return __x.first; }
+function _ZNKSt10_Select1stISt4pairIKciEEclERKS2_ called 27478 returned 100% blocks executed 100%
+    27478:  891:      operator()(const _Pair& __x) const
+    27478:  892:      { return __x.first; }
         -:  893:
         -:  894:#if __cplusplus >= 201103L
         -:  895:      template<typename _Pair2>

@@ -1,8 +1,8 @@
         -:    0:Source:/usr/include/c++/5/bits/stl_map.h
         -:    0:Graph:ConversorRomanos.gcno
         -:    0:Data:ConversorRomanos.gcda
-        -:    0:Runs:1
-        -:    0:Programs:1
+        -:    0:Runs:3
+        -:    0:Programs:3
         -:    1:// Map implementation -*- C++ -*-
         -:    2:
         -:    3:// Copyright (C) 2001-2015 Free Software Foundation, Inc.
@@ -215,11 +215,11 @@ call    0 never executed
         -:  208:       *  This is linear in N if the range is already sorted, and NlogN
         -:  209:       *  otherwise (where N is @a __l.size()).
         -:  210:       */
-function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEC2ESt16initializer_listIS4_ERKS1_RKS5_ called 1 returned 100% blocks executed 73%
-        1:  211:      map(initializer_list<value_type> __l,
+function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEC2ESt16initializer_listIS4_ERKS1_RKS5_ called 3 returned 100% blocks executed 73%
+        3:  211:      map(initializer_list<value_type> __l,
         -:  212:	  const _Compare& __comp = _Compare(),
         -:  213:	  const allocator_type& __a = allocator_type())
-        1:  214:      : _M_t(__comp, _Pair_alloc_type(__a))
+        3:  214:      : _M_t(__comp, _Pair_alloc_type(__a))
 call    0 returned 100%
 call    1 returned 100%
 branch  2 taken 100% (fallthrough)
@@ -228,7 +228,7 @@ call    4 returned 100%
 call    5 never executed
 call    6 never executed
 call    7 never executed
-        1:  215:      { _M_t._M_insert_unique(__l.begin(), __l.end()); }
+        3:  215:      { _M_t._M_insert_unique(__l.begin(), __l.end()); }
 call    0 returned 100%
 call    1 returned 100%
 call    2 returned 100%
@@ -374,9 +374,9 @@ branch  4 taken 0% (throw)
         -:  353:       *  according to the keys.
         -:  354:       */
         -:  355:      iterator
-function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEE3endEv called 1879 returned 100% blocks executed 100%
-     1879:  356:      end() _GLIBCXX_NOEXCEPT
-     1879:  357:      { return _M_t.end(); }
+function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEE3endEv called 5913 returned 100% blocks executed 100%
+     5913:  356:      end() _GLIBCXX_NOEXCEPT
+     5913:  357:      { return _M_t.end(); }
 call    0 returned 100%
         -:  358:
         -:  359:      /**
@@ -494,18 +494,18 @@ call    0 returned 100%
         -:  471:       *  Lookup requires logarithmic time.
         -:  472:       */
         -:  473:      mapped_type&
-function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEixERS3_ called 983 returned 100% blocks executed 72%
-      983:  474:      operator[](const key_type& __k)
+function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEixERS3_ called 3087 returned 100% blocks executed 72%
+     3087:  474:      operator[](const key_type& __k)
         -:  475:      {
         -:  476:	// concept requirements
         -:  477:	__glibcxx_function_requires(_DefaultConstructibleConcept<mapped_type>)
         -:  478:
-      983:  479:	iterator __i = lower_bound(__k);
+     3087:  479:	iterator __i = lower_bound(__k);
 call    0 returned 100%
 branch  1 taken 100% (fallthrough)
 branch  2 taken 0% (throw)
         -:  480:	// __i->first is greater than or equivalent to __k.
-      983:  481:	if (__i == end() || key_comp()(__k, (*__i).first))
+     3087:  481:	if (__i == end() || key_comp()(__k, (*__i).first))
 call    0 returned 100%
 call    1 returned 100%
 branch  2 taken 100% (fallthrough)
@@ -528,7 +528,7 @@ branch 18 never executed
 branch 19 never executed
 branch 20 never executed
         -:  482:#if __cplusplus >= 201103L
-        1:  483:	  __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
+        3:  483:	  __i = _M_t._M_emplace_hint_unique(__i, std::piecewise_construct,
 call    0 returned 100%
 call    1 returned 100%
 call    2 returned 100%
@@ -539,24 +539,24 @@ branch  4 taken 0% (throw)
         -:  486:#else
         -:  487:          __i = insert(__i, value_type(__k, mapped_type()));
         -:  488:#endif
-      983:  489:	return (*__i).second;
+     3087:  489:	return (*__i).second;
 call    0 returned 100%
         -:  490:      }
         -:  491:
         -:  492:#if __cplusplus >= 201103L
         -:  493:      mapped_type&
-function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEixEOc called 896 returned 100% blocks executed 55%
-      896:  494:      operator[](key_type&& __k)
+function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEEixEOc called 2826 returned 100% blocks executed 55%
+     2826:  494:      operator[](key_type&& __k)
         -:  495:      {
         -:  496:	// concept requirements
         -:  497:	__glibcxx_function_requires(_DefaultConstructibleConcept<mapped_type>)
         -:  498:
-      896:  499:	iterator __i = lower_bound(__k);
+     2826:  499:	iterator __i = lower_bound(__k);
 call    0 returned 100%
 branch  1 taken 100% (fallthrough)
 branch  2 taken 0% (throw)
         -:  500:	// __i->first is greater than or equivalent to __k.
-      896:  501:	if (__i == end() || key_comp()(__k, (*__i).first))
+     2826:  501:	if (__i == end() || key_comp()(__k, (*__i).first))
 call    0 returned 100%
 call    1 returned 100%
 branch  2 taken 100% (fallthrough)
@@ -587,7 +587,7 @@ branch  4 never executed
     #####:  503:					std::forward_as_tuple(std::move(__k)),
 call    0 never executed
         -:  504:					std::tuple<>());
-      896:  505:	return (*__i).second;
+     2826:  505:	return (*__i).second;
 call    0 returned 100%
         -:  506:      }
         -:  507:#endif
@@ -901,9 +901,9 @@ call    0 returned 100%
         -:  815:       *  constructed.
         -:  816:       */
         -:  817:      key_compare
-function _ZNKSt3mapIciSt4lessIcESaISt4pairIKciEEE8key_compEv called 1879 returned 100% blocks executed 100%
-     1879:  818:      key_comp() const
-     1879:  819:      { return _M_t.key_comp(); }
+function _ZNKSt3mapIciSt4lessIcESaISt4pairIKciEEE8key_compEv called 5913 returned 100% blocks executed 100%
+     5913:  818:      key_comp() const
+     5913:  819:      { return _M_t.key_comp(); }
 call    0 returned 100%
         -:  820:
         -:  821:      /**
@@ -1000,9 +1000,9 @@ call    0 returned 100%
         -:  912:       *  or end() if no such element exists.
         -:  913:       */
         -:  914:      iterator
-function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEE11lower_boundERS3_ called 1879 returned 100% blocks executed 100%
-     1879:  915:      lower_bound(const key_type& __x)
-     1879:  916:      { return _M_t.lower_bound(__x); }
+function _ZNSt3mapIciSt4lessIcESaISt4pairIKciEEE11lower_boundERS3_ called 5913 returned 100% blocks executed 100%
+     5913:  915:      lower_bound(const key_type& __x)
+     5913:  916:      { return _M_t.lower_bound(__x); }
 call    0 returned 100%
         -:  917:
         -:  918:#if __cplusplus > 201103L
