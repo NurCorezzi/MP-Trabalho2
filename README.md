@@ -1,2 +1,2 @@
 # MP-Trabalho2
-Desenvolvimento de um conversor de algarismos romanos voltado a testes
+Nao tenho certeza se coloquei GTEST da forma correta na pasta 
