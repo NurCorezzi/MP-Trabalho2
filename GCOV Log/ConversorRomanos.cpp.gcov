@@ -1,0 +1,614 @@
+        -:    0:Source:ConversorRomanos.cpp
+        -:    0:Graph:ConversorRomanos.gcno
+        -:    0:Data:ConversorRomanos.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        
+        Lines executed:91.67% of 96
+		Branches executed:92.98% of 228
+		Taken at least once:66.23% of 228
+		Calls executed:79.73% of 148
+		
+        -:    1:/*EOF*/
+        -:    2:/*EOF*/
+        -:    3:/*EOF*/
+        -:    4:/*EOF*/
+        -:    5:/*EOF*/
+        -:    6:/*EOF*/
+        -:    7:/*EOF*/
+        -:    8:/*EOF*/
+        1:    9:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+call    5 returned 100%
+call    6 never executed
+        -:   10:/*EOF*/
+        -:   11:/*EOF*/
+        -:   12:/*EOF*/
+        -:   13:/*EOF*/
+function _ZN16ConversorRomanos15Validar_TamanhoENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 45 returned 100% blocks executed 100%
+       45:   14:/*EOF*/
+        -:   15:/*EOF*/
+       45:   16:/*EOF*/
+call    0 returned 100%
+branch  1 taken 98% (fallthrough)
+branch  2 taken 2%
+call    3 returned 100%
+branch  4 taken 5% (fallthrough)
+branch  5 taken 95%
+branch  6 taken 7% (fallthrough)
+branch  7 taken 93%
+        3:   17:/*EOF*/
+        -:   18:/*EOF*/
+       42:   19:/*EOF*/
+        -:   20:/*EOF*/
+        -:   21:/*EOF*/
+        -:   22:/*EOF*/
+        -:   23:/*EOF*/
+        -:   24:/*EOF*/
+function _ZN16ConversorRomanos24Validar_Ordem_AlgarismosENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 15 returned 100% blocks executed 78%
+       15:   25:/*EOF*/
+        -:   26:/*EOF*/
+       86:   27:/*EOF*/
+call    0 returned 100%
+branch  1 taken 92% (fallthrough)
+branch  2 taken 8%
+        -:   28:/*EOF*/
+      420:   29:/*EOF*/
+call    0 returned 100%
+branch  1 taken 83% (fallthrough)
+branch  2 taken 17%
+        -:   30:/*EOF*/
+      349:   31:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 7% (fallthrough)
+branch  6 taken 93%
+call    7 never executed
+        -:   32:/*EOF*/
+        -:   33:/*EOF*/
+       23:   34:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 4% (fallthrough)
+branch  6 taken 96%
+call    7 never executed
+        1:   35:/*EOF*/
+        -:   36:/*EOF*/
+        -:   37:/*EOF*/
+        -:   38:/*EOF*/
+        -:   39:/*EOF*/
+       86:   40:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 95% (fallthrough)
+branch 10 taken 5%
+branch 11 taken 0% (fallthrough)
+branch 12 taken 100%
+branch 13 taken 100% (fallthrough)
+branch 14 taken 0%
+branch 15 taken 5% (fallthrough)
+branch 16 taken 95%
+branch 17 never executed
+branch 18 never executed
+call   19 never executed
+       64:   41:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 95% (fallthrough)
+branch 10 taken 5%
+branch 11 never executed
+branch 12 never executed
+        -:   42:/*EOF*/
+        -:   43:/*EOF*/
+        -:   44:/*EOF*/
+        1:   45:/*EOF*/
+branch  0 taken 0% (fallthrough)
+branch  1 taken 100%
+    #####:   46:/*EOF*/
+call    0 never executed
+call    1 never executed
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+branch  5 never executed
+branch  6 never executed
+call    7 never executed
+    #####:   47:/*EOF*/
+        -:   48:/*EOF*/
+        -:   49:/*EOF*/
+        -:   50:/*EOF*/
+        1:   51:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0%
+        1:   52:/*EOF*/
+        -:   53:/*EOF*/
+        -:   54:/*EOF*/
+      326:   55:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 5% (fallthrough)
+branch  6 taken 95%
+call    7 never executed
+        -:   56:/*EOF*/
+        -:   57:/*EOF*/
+       16:   58:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 6% (fallthrough)
+branch  6 taken 94%
+call    7 never executed
+        1:   59:/*EOF*/
+        -:   60:/*EOF*/
+      310:   61:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 27% (fallthrough)
+branch  6 taken 73%
+call    7 never executed
+        -:   62:/*EOF*/
+        -:   63:/*EOF*/
+       85:   64:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 1% (fallthrough)
+branch  6 taken 99%
+call    7 never executed
+        1:   65:/*EOF*/
+        -:   66:/*EOF*/
+        -:   67:/*EOF*/
+        -:   68:/*EOF*/
+      332:   69:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 98% (fallthrough)
+branch 10 taken 2%
+branch 11 taken 1% (fallthrough)
+branch 12 taken 99%
+branch 13 taken 100% (fallthrough)
+branch 14 taken 0%
+branch 15 taken 4% (fallthrough)
+branch 16 taken 96%
+branch 17 never executed
+branch 18 never executed
+call   19 never executed
+      248:   70:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 98% (fallthrough)
+branch 10 taken 2%
+branch 11 never executed
+branch 12 never executed
+        -:   71:/*EOF*/
+        -:   72:/*EOF*/
+        -:   73:/*EOF*/
+        7:   74:/*EOF*/
+branch  0 taken 57% (fallthrough)
+branch  1 taken 43%
+        4:   75:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 0% (fallthrough)
+branch  6 taken 100%
+call    7 never executed
+    #####:   76:/*EOF*/
+        -:   77:/*EOF*/
+        9:   78:/*EOF*/
+call    0 returned 100%
+branch  1 taken 78% (fallthrough)
+branch  2 taken 22%
+        7:   79:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 14% (fallthrough)
+branch  6 taken 86%
+call    7 never executed
+        1:   80:/*EOF*/
+        -:   81:/*EOF*/
+        -:   82:/*EOF*/
+      225:   83:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 9% (fallthrough)
+branch  6 taken 91%
+call    7 never executed
+        -:   84:/*EOF*/
+        -:   85:/*EOF*/
+       21:   86:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 5% (fallthrough)
+branch  6 taken 95%
+call    7 never executed
+        1:   87:/*EOF*/
+        -:   88:/*EOF*/
+      204:   89:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 34% (fallthrough)
+branch  6 taken 66%
+call    7 never executed
+        -:   90:/*EOF*/
+        -:   91:/*EOF*/
+        -:   92:/*EOF*/
+      274:   93:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 96% (fallthrough)
+branch 10 taken 4%
+branch 11 taken 3% (fallthrough)
+branch 12 taken 97%
+branch 13 taken 100% (fallthrough)
+branch 14 taken 0%
+branch 15 taken 7% (fallthrough)
+branch 16 taken 93%
+branch 17 never executed
+branch 18 never executed
+call   19 never executed
+      204:   94:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+call    6 returned 100%
+branch  7 taken 100% (fallthrough)
+branch  8 taken 0% (throw)
+branch  9 taken 96% (fallthrough)
+branch 10 taken 4%
+branch 11 never executed
+branch 12 never executed
+        -:   95:/*EOF*/
+        -:   96:/*EOF*/
+        -:   97:/*EOF*/
+        9:   98:/*EOF*/
+branch  0 taken 44% (fallthrough)
+branch  1 taken 56%
+        4:   99:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 0% (fallthrough)
+branch  6 taken 100%
+call    7 never executed
+    #####:  100:/*EOF*/
+        -:  101:/*EOF*/
+       29:  102:/*EOF*/
+call    0 returned 100%
+branch  1 taken 86% (fallthrough)
+branch  2 taken 14%
+       25:  103:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 4% (fallthrough)
+branch  6 taken 96%
+call    7 never executed
+        1:  104:/*EOF*/
+        -:  105:/*EOF*/
+        -:  106:/*EOF*/
+      134:  107:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 29% (fallthrough)
+branch  6 taken 71%
+call    7 never executed
+        -:  108:/*EOF*/
+        -:  109:/*EOF*/
+       39:  110:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 3% (fallthrough)
+branch  6 taken 97%
+call    7 never executed
+        1:  111:/*EOF*/
+        -:  112:/*EOF*/
+       95:  113:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0% (throw)
+branch  5 taken 100% (fallthrough)
+branch  6 taken 0%
+        -:  114:/*EOF*/
+        -:  115:/*EOF*/
+       95:  116:/*EOF*/
+        -:  117:/*EOF*/
+        -:  118:/*EOF*/
+        -:  119:/*EOF*/
+        -:  120:/*EOF*/
+        7:  121:/*EOF*/
+        -:  122:/*EOF*/
+        -:  123:/*EOF*/
+        -:  124:/*EOF*/
+function _ZN16ConversorRomanos31Validar_Quant_Algarismos_IguaisENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 11 returned 100% blocks executed 95%
+       11:  125:/*EOF*/
+        -:  126:/*EOF*/
+       11:  127:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 0% (fallthrough)
+branch  4 taken 100%
+    #####:  128:/*EOF*/
+        -:  129:/*EOF*/
+        -:  130:/*EOF*/
+        -:  131:/*EOF*/
+       89:  132:/*EOF*/
+call    0 returned 100%
+branch  1 taken 88% (fallthrough)
+branch  2 taken 12%
+        -:  133:/*EOF*/
+       44:  134:/*EOF*/
+       44:  135:/*EOF*/
+       44:  136:/*EOF*/
+call    0 returned 100%
+        -:  137:/*EOF*/
+      371:  138:/*EOF*/
+call    0 returned 100%
+branch  1 taken 88% (fallthrough)
+branch  2 taken 12%
+branch  3 taken 71% (fallthrough)
+branch  4 taken 29%
+        -:  139:/*EOF*/
+      327:  140:/*EOF*/
+      327:  141:/*EOF*/
+call    0 returned 100%
+branch  1 taken 29% (fallthrough)
+branch  2 taken 71%
+        -:  142:/*EOF*/
+       96:  143:/*EOF*/
+       96:  144:/*EOF*/
+       96:  145:/*EOF*/
+call    0 returned 100%
+        -:  146:/*EOF*/
+        -:  147:/*EOF*/
+        -:  148:/*EOF*/
+       44:  149:/*EOF*/
+branch  0 taken 11% (fallthrough)
+branch  1 taken 89%
+        5:  150:/*EOF*/
+        -:  151:/*EOF*/
+        -:  152:/*EOF*/
+        -:  153:/*EOF*/
+        6:  154:/*EOF*/
+        -:  155:/*EOF*/
+        -:  156:/*EOF*/
+        -:  157:/*EOF*/
+function _ZN16ConversorRomanos18Validar_CaracteresENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 12 returned 100% blocks executed 93%
+       12:  158:/*EOF*/
+        -:  159:/*EOF*/
+       12:  160:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 0% (fallthrough)
+branch  4 taken 100%
+    #####:  161:/*EOF*/
+        -:  162:/*EOF*/
+       92:  163:/*EOF*/
+call    0 returned 100%
+branch  1 taken 91% (fallthrough)
+branch  2 taken 9%
+       84:  164:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 5% (fallthrough)
+branch  3 taken 95%
+        4:  165:/*EOF*/
+        -:  166:/*EOF*/
+        8:  167:/*EOF*/
+        -:  168:/*EOF*/
+        -:  169:/*EOF*/
+        -:  170:/*EOF*/
+        -:  171:/*EOF*/
+function _ZN16ConversorRomanos16Calcular_DecimalENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 8 returned 100% blocks executed 96%
+        8:  172:/*EOF*/
+        -:  173:/*EOF*/
+        8:  174:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+call    4 returned 100%
+branch  5 taken 0% (fallthrough)
+branch  6 taken 100%
+    #####:  175:/*EOF*/
+        -:  176:/*EOF*/
+        -:  177:/*EOF*/
+        8:  178:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+        8:  179:/*EOF*/
+        -:  180:/*EOF*/
+       89:  181:/*EOF*/
+call    0 returned 100%
+branch  1 taken 91% (fallthrough)
+branch  2 taken 9%
+        -:  182:/*EOF*/
+       81:  183:/*EOF*/
+       81:  184:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:  185:/*EOF*/
+       81:  186:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+call    3 returned 100%
+branch  4 taken 100% (fallthrough)
+branch  5 taken 0% (throw)
+branch  6 taken 93% (fallthrough)
+branch  7 taken 7%
+       75:  187:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:  188:/*EOF*/
+        6:  189:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0% (throw)
+        -:  190:/*EOF*/
+        -:  191:/*EOF*/
+        -:  192:/*EOF*/
+        8:  193:/*EOF*/
+        -:  194:/*EOF*/
+        -:  195:/*EOF*/
+function _ZN16ConversorRomanos24Converter_Romano_DecimalENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 9 returned 100% blocks executed 76%
+        9:  196:/*EOF*/
+        -:  197:/*EOF*/
+        9:  198:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+call    2 returned 100%
+branch  3 taken 11% (fallthrough)
+branch  4 taken 89%
+        1:  199:/*EOF*/
+        -:  200:/*EOF*/
+        -:  201:/*EOF*/
+        -:  202:/*EOF*/
+        8:  203:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+branch  5 taken 13% (fallthrough)
+branch  6 taken 88%
+call    7 never executed
+call    8 never executed
+        1:  204:/*EOF*/
+        -:  205:/*EOF*/
+        -:  206:/*EOF*/
+        -:  207:/*EOF*/
+        7:  208:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+branch  5 taken 29% (fallthrough)
+branch  6 taken 71%
+call    7 never executed
+call    8 never executed
+        2:  209:/*EOF*/
+        -:  210:/*EOF*/
+        -:  211:/*EOF*/
+        -:  212:/*EOF*/
+        5:  213:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+branch  5 taken 0% (fallthrough)
+branch  6 taken 100%
+call    7 never executed
+call    8 never executed
+    #####:  214:/*EOF*/
+        -:  215:/*EOF*/
+        -:  216:/*EOF*/
+        -:  217:/*EOF*/
+        5:  218:/*EOF*/
+call    0 returned 100%
+call    1 returned 100%
+branch  2 taken 100% (fallthrough)
+branch  3 taken 0% (throw)
+call    4 returned 100%
+call    5 never executed
+function _GLOBAL__sub_I__ZN16ConversorRomanos7MAXSIZEE called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 83%
+        3:  219:/*EOF*/
+call    0 returned 100%
+branch  1 taken 100% (fallthrough)
+branch  2 taken 0%
+branch  3 taken 100% (fallthrough)
+branch  4 taken 0%

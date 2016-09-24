@@ -1,0 +1,178 @@
+\hypertarget{classConversorRomanos}{}\section{Conversor\+Romanos Class Reference}
+\label{classConversorRomanos}\index{Conversor\+Romanos@{Conversor\+Romanos}}
+
+
+Classe de convercao.  
+
+
+
+
+{\ttfamily \#include $<$Conversor\+Romanos.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classConversorRomanos_aee7464a39a874332cd70237872f5909c}{Validar\+\_\+\+Tamanho} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Avalia se tamanho do parametro algarismos nao e 0 nem maior que 30 caracteres. \end{DoxyCompactList}\item 
+int \hyperlink{classConversorRomanos_adc421e09c99a9967e4caec26a4bb6b3d}{Validar\+\_\+\+Caracteres} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Procura por caracteres invalidos diferentes de i,v,x,l,c,d,m. \end{DoxyCompactList}\item 
+int \hyperlink{classConversorRomanos_a349a0f01964b264de8b8f3bf00c97d96}{Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Avalia quantidade repetida de caracteres validos ou nao. \end{DoxyCompactList}\item 
+int \hyperlink{classConversorRomanos_a85e46dc74573ba883fd7129f22924022}{Validar\+\_\+\+Ordem\+\_\+\+Algarismos} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Avalia formato da string em algarismos romanos. \end{DoxyCompactList}\item 
+int \hyperlink{classConversorRomanos_aabb8ee0acfc4a14909bdbd6324a099dc}{Calcular\+\_\+\+Decimal} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Faz o calculo da string seja esta valida ou nao. \end{DoxyCompactList}\item 
+int \hyperlink{classConversorRomanos_a980f15e1de74af5d12827c91ff850abe}{Converter\+\_\+\+Romano\+\_\+\+Decimal} (string algarismos)
+\begin{DoxyCompactList}\small\item\em Compila funcoes da classe para retornar um valor caso string seja valida. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static map$<$ char, int $>$ \hyperlink{classConversorRomanos_aeba1fe1da2a3a6ec8bfe72fc249475f1}{val\+Alg}
+\begin{DoxyCompactList}\small\item\em Mapa utilizado para guardar algarismos validos e seus valores em decimais. \end{DoxyCompactList}\item 
+static const int \hyperlink{classConversorRomanos_aef26e3c78f35cdebab93cb8addacb49e}{M\+A\+X\+S\+I\+ZE} = 30\hypertarget{classConversorRomanos_aef26e3c78f35cdebab93cb8addacb49e}{}\label{classConversorRomanos_aef26e3c78f35cdebab93cb8addacb49e}
+
+\begin{DoxyCompactList}\small\item\em Tamanho maximo permitido para validacao. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Classe de convercao. 
+
+Classe responsavel por converter algarismos romanos para valores decimais 
+
+\subsection{Member Function Documentation}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Calcular\+\_\+\+Decimal@{Calcular\+\_\+\+Decimal}}
+\index{Calcular\+\_\+\+Decimal@{Calcular\+\_\+\+Decimal}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Calcular\+\_\+\+Decimal(string algarismos)}{Calcular_Decimal(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Calcular\+\_\+\+Decimal (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_aabb8ee0acfc4a14909bdbd6324a099dc}{}\label{classConversorRomanos_aabb8ee0acfc4a14909bdbd6324a099dc}
+
+
+Faz o calculo da string seja esta valida ou nao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Converter\+\_\+\+Romano\+\_\+\+Decimal@{Converter\+\_\+\+Romano\+\_\+\+Decimal}}
+\index{Converter\+\_\+\+Romano\+\_\+\+Decimal@{Converter\+\_\+\+Romano\+\_\+\+Decimal}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Converter\+\_\+\+Romano\+\_\+\+Decimal(string algarismos)}{Converter_Romano_Decimal(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Converter\+\_\+\+Romano\+\_\+\+Decimal (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_a980f15e1de74af5d12827c91ff850abe}{}\label{classConversorRomanos_a980f15e1de74af5d12827c91ff850abe}
+
+
+Compila funcoes da classe para retornar um valor caso string seja valida. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Validar\+\_\+\+Caracteres@{Validar\+\_\+\+Caracteres}}
+\index{Validar\+\_\+\+Caracteres@{Validar\+\_\+\+Caracteres}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Validar\+\_\+\+Caracteres(string algarismos)}{Validar_Caracteres(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Validar\+\_\+\+Caracteres (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_adc421e09c99a9967e4caec26a4bb6b3d}{}\label{classConversorRomanos_adc421e09c99a9967e4caec26a4bb6b3d}
+
+
+Procura por caracteres invalidos diferentes de i,v,x,l,c,d,m. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Validar\+\_\+\+Ordem\+\_\+\+Algarismos@{Validar\+\_\+\+Ordem\+\_\+\+Algarismos}}
+\index{Validar\+\_\+\+Ordem\+\_\+\+Algarismos@{Validar\+\_\+\+Ordem\+\_\+\+Algarismos}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Validar\+\_\+\+Ordem\+\_\+\+Algarismos(string algarismos)}{Validar_Ordem_Algarismos(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Validar\+\_\+\+Ordem\+\_\+\+Algarismos (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_a85e46dc74573ba883fd7129f22924022}{}\label{classConversorRomanos_a85e46dc74573ba883fd7129f22924022}
+
+
+Avalia formato da string em algarismos romanos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais@{Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais}}
+\index{Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais@{Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais(string algarismos)}{Validar_Quant_Algarismos_Iguais(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Validar\+\_\+\+Quant\+\_\+\+Algarismos\+\_\+\+Iguais (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_a349a0f01964b264de8b8f3bf00c97d96}{}\label{classConversorRomanos_a349a0f01964b264de8b8f3bf00c97d96}
+
+
+Avalia quantidade repetida de caracteres validos ou nao. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!Validar\+\_\+\+Tamanho@{Validar\+\_\+\+Tamanho}}
+\index{Validar\+\_\+\+Tamanho@{Validar\+\_\+\+Tamanho}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{Validar\+\_\+\+Tamanho(string algarismos)}{Validar_Tamanho(string algarismos)}}]{\setlength{\rightskip}{0pt plus 5cm}int Conversor\+Romanos\+::\+Validar\+\_\+\+Tamanho (
+\begin{DoxyParamCaption}
+\item[{string}]{algarismos}
+\end{DoxyParamCaption}
+)}\hypertarget{classConversorRomanos_aee7464a39a874332cd70237872f5909c}{}\label{classConversorRomanos_aee7464a39a874332cd70237872f5909c}
+
+
+Avalia se tamanho do parametro algarismos nao e 0 nem maior que 30 caracteres. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em algarismos} & string a ser avaliada. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+resultado 0 ou 1 da avaliacao. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\index{Conversor\+Romanos@{Conversor\+Romanos}!val\+Alg@{val\+Alg}}
+\index{val\+Alg@{val\+Alg}!Conversor\+Romanos@{Conversor\+Romanos}}
+\subsubsection[{\texorpdfstring{val\+Alg}{valAlg}}]{\setlength{\rightskip}{0pt plus 5cm}map$<$ char, int $>$ Conversor\+Romanos\+::val\+Alg\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{classConversorRomanos_aeba1fe1da2a3a6ec8bfe72fc249475f1}{}\label{classConversorRomanos_aeba1fe1da2a3a6ec8bfe72fc249475f1}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= 
+\{\{\textcolor{charliteral}{'i'},1\},\{\textcolor{charliteral}{'v'},5\},\{\textcolor{charliteral}{'x'},10\},\{\textcolor{charliteral}{'l'},50\},\{\textcolor{charliteral}{'c'},100\},\{\textcolor{charliteral}{'d'},500\},\{\textcolor{charliteral}{'m'},1000\},
+ \{\textcolor{charliteral}{'I'},1\},\{\textcolor{charliteral}{'V'},5\},\{\textcolor{charliteral}{'X'},10\},\{\textcolor{charliteral}{'L'},50\},\{\textcolor{charliteral}{'C'},100\},\{\textcolor{charliteral}{'D'},500\},\{\textcolor{charliteral}{'M'},1000\}\}
+\end{DoxyCode}
+
+
+Mapa utilizado para guardar algarismos validos e seus valores em decimais. 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Conversor\+Romanos.\+h\item 
+Conversor\+Romanos.\+cpp\end{DoxyCompactItemize}
