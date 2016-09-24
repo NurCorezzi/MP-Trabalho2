@@ -78,18 +78,18 @@
         -:   73:   */
         -:   74:  template<typename _Tp>
         -:   75:    constexpr _Tp&&
-function _ZSt7forwardIRKcEOT_RNSt16remove_referenceIS2_E4typeE called 6 returned 100% blocks executed 100%
+function _ZSt7forwardIRKcEOT_RNSt16remove_referenceIS2_E4typeE called 18 returned 100% blocks executed 100%
 function _ZSt7forwardIRPSt13_Rb_tree_nodeISt4pairIKciEEEOT_RNSt16remove_referenceIS7_E4typeE called 72 returned 100% blocks executed 100%
-function _ZSt7forwardIRPSt18_Rb_tree_node_baseEOT_RNSt16remove_referenceIS3_E4typeE called 9 returned 100% blocks executed 100%
+function _ZSt7forwardIRPSt18_Rb_tree_node_baseEOT_RNSt16remove_referenceIS3_E4typeE called 21 returned 100% blocks executed 100%
 function _ZSt7forwardIRKSt4pairIKciEEOT_RNSt16remove_referenceIS5_E4typeE called 294 returned 100% blocks executed 100%
 function _ZSt7forwardISt5tupleIJOcEEEOT_RNSt16remove_referenceIS3_E4typeE called 0 returned 0% blocks executed 0%
 function _ZSt7forwardIOcEOT_RNSt16remove_referenceIS1_E4typeE called 0 returned 0% blocks executed 0%
-function _ZSt7forwardISt5tupleIJEEEOT_RNSt16remove_referenceIS2_E4typeE called 15 returned 100% blocks executed 100%
-function _ZSt7forwardISt5tupleIJRKcEEEOT_RNSt16remove_referenceIS4_E4typeE called 15 returned 100% blocks executed 100%
-function _ZSt7forwardIRKSt21piecewise_construct_tEOT_RNSt16remove_referenceIS3_E4typeE called 15 returned 100% blocks executed 100%
+function _ZSt7forwardISt5tupleIJEEEOT_RNSt16remove_referenceIS2_E4typeE called 45 returned 100% blocks executed 100%
+function _ZSt7forwardISt5tupleIJRKcEEEOT_RNSt16remove_referenceIS4_E4typeE called 45 returned 100% blocks executed 100%
+function _ZSt7forwardIRKSt21piecewise_construct_tEOT_RNSt16remove_referenceIS3_E4typeE called 45 returned 100% blocks executed 100%
 function _ZSt7forwardIcEOT_RNSt16remove_referenceIS0_E4typeE called 0 returned 0% blocks executed 0%
-      426:   76:    forward(typename std::remove_reference<_Tp>::type& __t) noexcept
-      426:   77:    { return static_cast<_Tp&&>(__t); }
+      540:   76:    forward(typename std::remove_reference<_Tp>::type& __t) noexcept
+      540:   77:    { return static_cast<_Tp&&>(__t); }
         -:   78:
         -:   79:  /**
         -:   80:   *  @brief  Forward an rvalue.

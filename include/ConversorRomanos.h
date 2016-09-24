@@ -17,7 +17,7 @@ class ConversorRomanos
 		const static int MAXSIZE;
 				
 		int Validar_Tamanho(string algarismos);
-		int Validar_Caracteres_Validos(string algarismos);
+		int Validar_Caracteres(string algarismos);
 		int Validar_Quant_Algarismos_Iguais(string algarismos);
 		int Validar_Ordem_Algarismos(string algarismos);
 		int Calcular_Decimal(string algarismos);

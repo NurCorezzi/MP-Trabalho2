@@ -135,7 +135,7 @@ int ConversorRomanos::Validar_Quant_Algarismos_Iguais(string algarismos)
 		bool erased = false;
 		algAtual = algarismos[0];
 		
-		for(unsigned int i = 0; i < algarismos.size();erased ? i : i++)
+		for(unsigned int i = 0; i < algarismos.size(); erased ? i : i++)
 		{
 			erased =false;
 			if(algarismos[i] == algAtual)
@@ -155,7 +155,7 @@ int ConversorRomanos::Validar_Quant_Algarismos_Iguais(string algarismos)
 }
 
 //validos apenas i,v,x,l,c,d,m maisculos e minusculos
-int ConversorRomanos::Validar_Caracteres_Validos(string algarismos)
+int ConversorRomanos::Validar_Caracteres(string algarismos)
 {
 	if(!Validar_Tamanho(algarismos))
 		return 0;
@@ -200,7 +200,7 @@ int ConversorRomanos::Converter_Romano_Decimal(string algarismos)
 		
 	//cout << "Tamanho Correto" << endl;
 	
-	if(!Validar_Caracteres_Validos(algarismos))
+	if(!Validar_Caracteres(algarismos))
 		return 0;
 		
 	//cout << "Caracteres Validos" << endl;
